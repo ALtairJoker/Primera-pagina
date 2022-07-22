@@ -22,7 +22,7 @@ p {
 
 
 .contenido-encabezado {
-    background-image: url(/img/modern-futuristic-sci-fi-background.jpg);
+    background-image: url(../img/modern-futuristic-sci-fi-background.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
