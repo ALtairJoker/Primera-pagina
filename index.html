@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;1,200;1,400&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <nav id="navegacion">
+        <a href="/index.html">Inicio</a>
+        <a href="/contacto.html">Contacto</a>
+    </nav>
+   
+    <header class="contenido-encabezado" id="contenido-encabezado">
+        
+        <div class="texto-encabezado">
+        <h1 class="titulo" >HOLA AMIKO <br>
+        <span class="titulo-neon texto-regular">50%de descuento</span></h1>
+
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem placeat neque ea, saepe et officia? Ea minima voluptas, placeat reiciendis quos voluptates odit quod repellat facere excepturi nesciunt voluptate.</p>
+        <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, iure repellendus eligendi soluta esse in quam pariatur voluptatum suscipit, quae distinctio nulla praesentium repudiandae id, consequuntur minima eveniet ipsum tempora.</p>
+       
+       
+
+
+        <a href="https://www.instagram.com/alexis_altair/" class="btn-link texto-regular">MAS INFORMACION</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <h2 class="subtitulo-h2">Servicios</h2>
+            <p> <span class="letra">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, non maxime, quam dolore voluptate facilis ratione omnis qui debitis sit maiores eius? Cumque impedit, natus accusamus cupiditate accusantium incidunt repellat!</p>
+
+        
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dolorum doloribus autem impedit velit, atque explicabo in beatae rerum labore nostrum dolor molestiae repellat ab cumque ipsum! Autem, sunt incidunt.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam laboriosam expedita architecto qui aperiam provident reiciendis, quaerat laborum minus, tempore, exercitationem ipsa at. Maiores dolores suscipit quidem, repellat odit veniam.</p>
+        </section>
+    </main>
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('contenido-encabezado');
+            header.style.opacity = '1' - window.pageYOffset / 650;
+        });
+    </script>
+</body>
+</html>
